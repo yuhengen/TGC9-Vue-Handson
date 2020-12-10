@@ -64,9 +64,9 @@ export default {
       };
       let total = 0;
       for (let selectedService of this.services) {
-          total = total + costTable[selectedService];
+        total = total + costTable[selectedService];
       }
-      return total
+      return total;
     },
   },
 };
